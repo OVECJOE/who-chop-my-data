@@ -3,7 +3,7 @@
  * 2. Background sync: uploads the IndexedDB outbox even if the tab was closed.
  * Updates never reload the game under the player; the page offers "Update ready" at the menu.
  * BUILD is stamped by scripts/stamp.py so every deploy gets a new cache and an update. */
-const BUILD = 'c9b86d48c128';
+const BUILD = 'bf0c46d2b01d';
 const SHELL = 'wcmd-shell-' + BUILD;
 const DATA = 'wcmd-data';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
